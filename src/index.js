@@ -11,6 +11,6 @@ function component() {
 
 document.body.appendChild(component());
 
-
-console.log('dsfsfsfsdfs');
 console.log(string);
+
+console.log('watchinig!');
