@@ -1,16 +1,8 @@
-import string from './module-1'
-
-function component() {
-  const element = document.createElement('div');
-
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  return element;
-}
-
-document.body.appendChild(component());
-
-console.log(string);
+import './css/common.scss';
+import './css/button.scss';
 
 console.log('watchinig!');
+
+console.log(5555);
+
+console.log(9999);
